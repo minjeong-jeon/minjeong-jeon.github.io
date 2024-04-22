@@ -1,0 +1,82 @@
+/* Resetting default margin and padding */
+body {
+    background-color: #312729;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+/* Top menu styling */
+.top-links {
+    background-color: #362b2e;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-links ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 40px;
+    padding: 0;
+}
+
+.top-links li {
+    float: left;
+}
+
+.top-links a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.top-links a:hover {
+    background-color: #555;
+}
+
+h1, p {
+    margin: 0;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    text-align: center;
+    padding: 0;
+}
+
+/* Main container styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Project styling */
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.project img:hover {
+    transform: scale(1.1);
+}
+
+.project img {
+    max-width: 70%; /* Ensure image doesn't exceed container width */
+    max-height: 100%; /* Ensure image doesn't exceed container height */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    margin: auto; /* Center horizontally */
+}
+
+.project p {
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+}

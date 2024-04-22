@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="api-reset-style.css">
+  <link rel="stylesheet" type="text/css" href="api-fonts-style.css">
+  <link rel="stylesheet" type="text/css" href="api-global-style.css">
+  <link rel="stylesheet" type="text/css" href="api-style.css">
+  <title>API</title>
+</head>
+
+<header>
+  <nav>
+      <div class="top-links">
+          <a href="index.html">⬅️ Home</a>
+          <a href="projects.html">Projects ➡️</a>
+      </div>
+  </nav>
+</header>
+
+<body>
+  <!-- Heading for the Page -->
+  <header class="header-container">
+    <h1>Search Anything</h1>
+    <h2>Search anything you want to know</h2>
+  </header>
+  <section class="option-2-enhanced">
+    <div class="option-container">
+      <h2>News search engine</h2>
+      <p>Add a search box to filter the list of cards.</p>
+      <!--Search box to find content on cards-->
+      <div class="box" style="text-align: center;">
+        <input id="searchbar" class="search" type="text" name="search" placeholder="Search..">
+      </div>
+      <div class="year"><label for="year">Search from</label><br><input type="date" name="date" id="date"></div>
+      <div class="submit"><input id="submit-button" type="button" value="Search"></div>
+    </div>
+    <div class="container">
+      <!--Display cards-->
+      <ul id="option-1-results" class="card-container"></ul>
+    </div>
+  </section>
+  <script src="api-script.js" defer></script>
+</body>
+
+</html>

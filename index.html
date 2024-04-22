@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script defer src="main.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
+    <link href="style.css" rel="stylesheet" />
+    <title>Minjeong Jeon - Website</title>
+</head>
+
+<body>
+    <header>
+        <div class="top-menu">
+            <ul>
+                <li><a href="#About_Me">About Me</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Work_Experience">Work Experience</a></li>
+                <li><a href="projects.html">View Projects</a></li>
+                <li><a href="api.html">Search Anything</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="hero-banner">
+        <img src="./images/Hero Banner.png" alt="Hero Banner Image">
+        <div class="hero-content">
+            <h1>Welcome</h1>
+            <p>Designer Minjeong Jeon</p>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="content-padding">
+            <img src="./images/MinjeongJeon_Photo(1080x1600).jpg" alt="Profile Photo" class="left-image">
+
+            <!-- You're reading. Do you want to be my friend? -->
+           
+            <section>
+                <h1 id="About_Me"></h1>
+                <p>
+                    <button id="btn-alert">Hello</button>
+                    <h1>My name is</h1>
+                    <h2>MINJEONG JEON</h2>
+                    I am a User Experience and User Interface designer<br>
+                    who is dedicated to solving complex problems<br>
+                    by gaining a deep understanding of the people<br>
+                    around me and the worlds they live in.
+                </p>
+            </section>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/minjeong-jeon-853232209" target="_blank">LINKEDIN</a>
+                <span class="space"> </span> 
+                <a href="https://www.instagram.com/minjj_96" target="_blank">INSTAGRAM</a>
+                <span class="space"> </span> 
+                <a href="https://www.youtube.com/channel/UCT4iWrChX4TstQGW0wuNPhQ" target="_blank">YOUTUBE</a>
+            </div>
+            <button id="hoverButton">You know what?</button>
+
+            <section>
+                <h2 id="Education"></h2>
+                <div class="education-container">
+                    <div class="education-box">
+                        <img src="./images/education.png" alt="SAIT">
+                        <h4>SAIT, Canada | Diploma, Interactive Design-User Experience</h4>
+                        <h5>September 2023 - May 2025</h5>
+                        <br> 
+                        <h4>Dankook University, Republic of Korea | Bachelor, Psychology</h4>
+                        <h5>March 2015 - February 2020</h5>
+                    </div>
+                </div>
+            </section>
+    
+            <section>
+                <h6 id="Work_Experience" class="accordion-header">Work Experience ⬇️</h6>
+                <div class="accordion-content">
+                    <ul>
+                        <li>Freelance Designer | Crossedu Canada | Calgary, Alberta, Canada</li>
+                        <p>- Web design and develop website with Wordpress.</p>
+                        <p>- Uploading postings twice a week (instagram).</p>
+                        <p>- Designing the catalog.</p>
+                        <br>
+                        <li>Freelance Web Designer | GreenmateReno | Calgary, Alberta, Canada</li>
+                        <p>- Web design and develop website with Wordpress.</p>
+                        <p>- Design the advertisement for the newspaper.</p>
+                        <br>
+                        <li>Graphic Designer | Beyond Brand | Calgary, Alberta, Canada</li>
+                        <p>- Creating posting designs for each company (arond 17 companies per week) and uploading the design to instagram 3-4 times a week.</p>
+                        <p>- Branding work: Designing menu, posters, flyers, coupons, business cards, catalog, wall design, win dow design, etc for each company.</p>
+                        <br>
+                        <li>Freelance Web Designer | K-BTS Spa | Calgary, Alberta, Canada</li>
+                        <p>-Web design and develop website with Wordpress.</p>
+                        <p>Design the advertisement.</p>
+                    </ul>
+                </div>
+            </section>            
+
+        <footer id="footer">
+            <p>&copy; Minjeong Jeon <span id="currentYear"></span></p>
+            <div class="contact-info">
+                <p class="light font">Minjeong Jeon | UXUI Designer | jmj9626@gmail.com</p>
+                <p><a href="https://www.linkedin.com/in/minjeong-jeon-853232209/" target="_blank">Contact to Minjeong</a></p>
+            </div>
+        </footer>
+
+        <p id="txt-counter">Number: 1</p>
+        <button id="btn-decrement"><i class="fas fa-arrow-left"></i></button>
+        <button id="btn-increment"><i class="fas fa-arrow-right"></i></button>
+        <ol id="numbers"></ol>
+    </div> <!-- end of content -->
+    
+    <script src="script.js"></script>
+</body>
+</html>
